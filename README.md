@@ -1,2 +1,2 @@
-# typescript-examples
-Examples of various concepts and techniques in TypeScript
+# typescript-node-example
+Examples project demonstrating how to build things with TypeScript and Node
