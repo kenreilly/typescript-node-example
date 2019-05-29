@@ -1,0 +1,29 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Run API Server Example",
+			"program": "${workspaceFolder}/build/index.js",
+			"args": [ "start-server" ],
+			"outFiles": [
+				"${workspaceFolder}/build/**/*.js"
+			]
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Run CLI Example",
+			"program": "${workspaceFolder}/build/index.js",
+			"args": [ "list-vehicles" ],
+			"outFiles": [
+				"${workspaceFolder}/build/**/*.js"
+			]
+		}
+	]
+}
